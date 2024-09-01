@@ -1,1 +1,1 @@
-![image](https://github.com/user-attachments/assets/d2abc8ae-2039-4380-8705-f13cc9458eda)
+![The guide to learn football from scratch](https://github.com/user-attachments/assets/cdee6a3b-4b84-4717-98c8-e97659732cda)
