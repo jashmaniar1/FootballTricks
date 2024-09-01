@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 Best Football Skills/Techniques</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset some default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Main body styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #A7C7E7, #BFD9F7);
+            color: #333;
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+
+        /* Custom cursor styling */
+        .custom-cursor {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 2px solid red;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+        }
+
+        /* Glass effect on the side navbar */
+        nav {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 250px;
+            height: 100%;
+            left: 0;
+            top: 0;
+            z-index: 1000;
+            padding-top: 2rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        #health1 {
+            color: coral;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        #pitch1 {
+            color: coral;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+
+        /* Main heading style */
+        h1 {
+            text-align: center;
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin: 2rem 0;
+            position: relative;
+            color: #0066cc;
+        }
+
+        /* Fizzing effect using pseudo-elements */
+        h1::before, h1::after {
+            content: '';
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.8);
+            animation: fizz 1s infinite ease-in-out;
+            z-index: -1;
+        }
+
+        h1::before {
+            width: 50px;
+            height: 50px;
+            top: 20px;
+            left: 30%;
+            animation-delay: 0s;
+        }
+
+        h1::after {
+            width: 70px;
+            height: 70px;
+            top: 10px;
+            left: 70%;
+            animation-delay: 0.5s;
+        }
+
+        @keyframes fizz {
+            0% {
+                transform: scale(0);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1);
+                opacity: 0.5;
+            }
+            100% {
+                transform: scale(0);
+                opacity: 0;
+            }
+        }
+        /* Section styles */
+        main {
+            margin-left: 250px;
+            padding: 2rem;
+        }
+
+        section {
+            background: rgba(255, 255, 255, 0.7);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Heading for each skill */
+        h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #00509E;
+        }
+
+        /* Paragraph text style */
+        p {
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        /* Video styling */
+        video {
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            display: block;
+            margin: 0 auto;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="custom-cursor"></div>
+    <nav>
+        <ul>
+            <li><a href="#skill1">Dribbling</a></li>
+            <li><a href="#skill2">Passing</a></li>
+            <li><a href="#skill3">Shooting</a></li>
+            <li><a href="#skill4">Tackling</a></li>
+            <li><a href="#skill5">Heading</a></li>
+            <li><a href="#skill6">Ball Control</a></li>
+            <li><a href="#skill7">Crossing</a></li>
+            <li><a href="#skill8">Feints</a></li>
+            <li><a href="#skill9">Shielding</a></li>
+            <li><a href="#skill10">Vision</a></li>
+            <li><a id="health1" href="#health">Health</a></li>
+            <li><a id="pitch1" href="#pitch">Pitch Placement</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <h1>10 Best Football Skills/Techniques</h1>
+
+        <section id="skill1">
+            <h2>1. Dribbling</h2>
+            <p>Dribbling is the ability to move the ball past an opponent with control and speed. It's an essential skill for creating scoring opportunities and maintaining possession. Mastering dribbling involves using both feet, changing direction quickly, and deceiving defenders. Players like Lionel Messi and Neymar are known for their exceptional dribbling abilities, often mesmerizing defenders with their quick feet and agility.</p>
+            <center>            <iframe width="908" height="479" src="https://www.youtube.com/embed/naEccnjzLxM" title="THE BASICS OF DRIBBLING" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </center>
+        </section>
+
+        <section id="skill2">
+            <h2>2. Passing</h2>
+            <p>Passing is the ability to distribute the ball accurately to teammates. Effective passing requires vision, timing, and precision. It can be short or long and is crucial for maintaining team possession and building up attacks. Players like Xavi Hernandez and Andrea Pirlo have mastered the art of passing, dictating the pace of the game with their accurate and intelligent distribution.</p>
+            <center><iframe width="853" height="480" src="https://www.youtube.com/embed/oIpRuzvsU80" title="THE BASICS OF PASSING - beginner tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+        </section>
+
+        <section id="skill3">
+            <h2>3. Shooting</h2>
+            <p>Shooting involves striking the ball towards the goal to score. A good shot combines power, accuracy, and placement. Players often practice different techniques like volleys, half-volleys, and curling shots to become more effective in front of the goal. Cristiano Ronaldo and Zlatan Ibrahimovic are examples of players with exceptional shooting abilities, capable of scoring from nearly any position on the pitch.</p>
+            <center><iframe width="853" height="480" src="https://www.youtube.com/embed/_f9ZIh8ESn4" title="Beginner&#39;s guide to shooting | 5 BASIC TIPS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+        </section>
+
+        <section id="skill4">
+            <h2>4. Tackling</h2>
+            <p>Tackling is the ability to dispossess an opponent by intercepting or taking the ball away. Timing and precision are crucial in tackling to avoid fouls and recover the ball cleanly. Legendary defenders like Paolo Maldini and Franco Baresi were known for their impeccable tackling skills, often winning the ball without committing fouls.</p>
+            <center><iframe width="853" height="480" src="https://www.youtube.com/embed/-MZ74SMZ9sM" title="7 defender tips to make strikers FEAR you" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+        </section>
+
+        <section id="skill5">
+            <h2>5. Heading</h2>
+            <p>Heading is the skill of using your head to play the ball, especially when scoring or clearing. It requires timing, courage, and the ability to direct the ball with precision. Players like Sergio Ramos and Cristiano Ronaldo are known for their ability to score important goals with their heads, often out-jumping defenders.</p>
+            <center><iframe width="853" height="480" src="https://www.youtube.com/embed/g930trA83j0" title="HOW TO HEAD LIKE CR7 | Header tutorial - learn football skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+        </section>
+
+        <section id="skill6">
+            <h2>6. Ball Control</h2>
+            <p>Ball control is the ability to trap, hold, and manipulate the ball effectively. It's fundamental to maintaining possession and creating opportunities in tight spaces. Good ball control allows players to make quick, precise movements. Players like Zinedine Zidane and Andrés Iniesta are revered for their flawless ball control, often leaving defenders in awe with their first touch.</p>
+            <center><iframe width="853" height="480" src="https://www.youtube.com/embed/6sMfu056PtY" title="How to control ANY ball out of the air" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+        </section>
+
+        <section id="skill7">
+            <h2>7. Crossing</h2>
+            <p>Crossing is delivering the ball into the opponent's box from wide areas. It's a critical skill for wingers and full-backs, aiming to set up goal-scoring opportunities. Effective crosses require accuracy, pace, and the ability to read the movement of teammates. David Beckham and Trent Alexander-Arnold are known for their pinpoint accurate crosses, often leading to decisive goals.</p>
+            <center><iframe width="853" height="480" src="https://www.youtube.com/embed/nvajn6BYJog" title="3 CROSSES YOU NEED TO LEARN | learn football skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+        </section>
+
+        <section id="skill8">
+            <h2>8. Feints</h2>
+            <p>Feints involve deceptive movements to trick defenders and create space. They are essential for dribblers looking to bypass opponents. Successful feints require quick thinking and precise execution. Ronaldinho and Eden Hazard have been masters of feints, using their creativity to leave defenders wrong-footed and create scoring chances.</p>
+            <center>            <iframe width="853" height="480" src="https://www.youtube.com/embed/_TTojY8MihU" title="5 BODY FEINTS YOU NEED TO LEARN - how to do these football skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </center>
+        </section>
+
+        <section id="skill9">
+            <h2>9. Shielding</h2>
+            <p>Shielding is the ability to protect the ball from opponents using your body. It's essential for maintaining possession under pressure and buying time for teammates to get into better positions. Strong shielding helps retain control of the ball in tight situations. Players like Yaya Touré and Didier Drogba excelled in shielding, using their strength and balance to hold off defenders.</p>
+            <center><iframe width="853" height="480" src="https://www.youtube.com/embed/6hDSFiKwxXI" title="Sick of losing the ball? Here&#39;s 5 ways to avoid it." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+        </section>
+
+        <section id="skill10">
+            <h2>10. Vision</h2>
+            <p>Vision is the ability to see potential opportunities on the field, often before they develop. It's crucial for playmakers who control the tempo of the game and create chances for teammates. Vision allows players to execute decisive passes and strategic plays. Players like Lionel Messi and Kevin De Bruyne possess extraordinary vision, often delivering assists that others wouldn't even consider.</p>
+            <center><iframe width="853" height="480" src="https://www.youtube.com/embed/k2HApTobThw" title="How to improve your passing AWARENESS &amp; VISION" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+        </section>
+
+        <section id="health">
+            <h2>Health</h2>
+            <p>Improve your fitness for football. Getting fit for football is a little different than just simply going out and running multiple miles at a steady pace. Instead, you are required to change speeds frequently in football which puts a different demand on the body and therefore we should train this way regularly to build our football fitness. By training your body to change speeds often for long periods of time, you will be able to mirror the running style expected on the football pitch. By using these simple exercises, you can build your match fitness when training alone so you can last 90 minutes when you get back on the pitch. </p>
+            <center><iframe width="853" height="480" src="https://www.youtube.com/embed/8cCISQG1SuA" title="How to get in football shape | Improve football fitness" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+            <br><br><br>
+            <p>Good health is crucial for football because it ensures peak physical performance, reduces the risk of injuries, and allows players to maintain endurance and agility throughout the game.</p>
+            <center><iframe width="853" height="480" src="https://www.youtube.com/embed/gjindWEGWZI" title="Football Training Advice: Why Your Diet Makes a Difference" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+            <br><br><br>
+            <center>            <img src="https://athleteconnectapp.com/wp-content/uploads/2022/02/food-football-players-football-nutrition-plan.jpg" alt="food pie chart">
+            </center><br>
+        </section>
+
+
+        <section id="pitch">
+            <h2>Pitch Placement</h2>
+            <p>Effective placement on the pitch requires a blend of tactical awareness, communication, and understanding of the game. Players must constantly adapt their positions based on the flow of play, ensuring that they support their teammates while maintaining their individual responsibilities. This strategic positioning is vital for success in European football, where quick transitions and tactical discipline often determine the outcome of a match.</p>
+            <center>            <img src="https://th.bing.com/th/id/OIP.Fm9KDhbgUgh9pMOa9qBKtAHaEo?rs=1&pid=ImgDetMain"><br><br>
+            </center>
+            <center><iframe width="853" height="480" src="https://www.youtube.com/embed/E9UkhB4PMcY" title="HOW TO CHOOSE POSITION - where should you play?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+>        </section>
+
+
+    </main>
+    
+    <script>
+        document.addEventListener('mousemove', function(e) {
+            const cursor = document.querySelector('.custom-cursor');
+            cursor.style.left = e.pageX + 'px';
+            cursor.style.top = e.pageY + 'px';
+        });
+    </script>
+</body>
+</html>
